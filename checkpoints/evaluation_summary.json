@@ -1,0 +1,24 @@
+{
+  "mlp": {
+    "name": "MLP (Baseline)",
+    "params": 537354,
+    "val_acc": 97.88333333333334,
+    "test_acc": 97.86,
+    "test_loss": 0.06372400611899794,
+    "mis_count": 214,
+    "latency": 0.7851280254952515,
+    "throughput": 81515.36809506881,
+    "train_time": 60.996737241744995
+  },
+  "cnn": {
+    "name": "CNN (Lightweight)",
+    "params": 206970,
+    "val_acc": 98.98333333333333,
+    "test_acc": 99.02,
+    "test_loss": 0.02954126339056529,
+    "mis_count": 98,
+    "latency": 3.6501585984447598,
+    "throughput": 17533.484716874707,
+    "train_time": 84.91022562980652
+  }
+}
